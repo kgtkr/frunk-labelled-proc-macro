@@ -1,0 +1,14 @@
+[package]
+name = "frunk_labelled_proc_macro"
+version = "0.1.0"
+authors = ["kgtkr <kgtkr.jp@gmail.com>"]
+edition = "2018"
+
+[lib]
+proc-macro=true
+
+[dependencies]
+frunk_proc_macro_helpers = "0.0.4"
+syn = "0.15"
+quote = "0.6"
+proc-macro2 = "0.4"
